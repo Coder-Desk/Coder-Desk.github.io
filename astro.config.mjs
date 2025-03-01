@@ -10,6 +10,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
   },
+  site: 'https://coder-desk.l1vdev.me',
 
   integrations: [react()]
 });
